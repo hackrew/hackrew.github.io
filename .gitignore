@@ -1,0 +1,5 @@
+
+dist/fontawesome/*
+!dist/fontawesome/css
+!dist/fontawesome/js
+!dist/fontawesome/webfonts
