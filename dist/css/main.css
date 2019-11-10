@@ -675,7 +675,7 @@ body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section > div.hk-containe
   padding: 20px 5px;
 }
 body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section > div.hk-container > div.hk-section-heading > div.hk-text > h1 {
-  font-size: 30px;
+  font-size: 24px;
   color: #000;
   margin: 10px auto;
 }
@@ -1737,6 +1737,67 @@ body.hk-body div.hk-view-desktop.hk-homepage div.hk-hackathons.hidden-down > div
 body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-hackathons {
   background-image: linear-gradient(to top, #000b30, #010b1f);
   color: #ffffff;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-hackathons > div.hk-container > div.hk-hackathons-slideshow-container {
+  position: relative;
+  margin: 20px auto;
+  margin-bottom: 60px;
+  overflow: visible;
+  width: 280px;
+  height: 296px;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-hackathons > div.hk-container > div.hk-hackathons-slideshow-container > div.hk-rectangle {
+  position: absolute;
+  width: 60px;
+  height: 200px;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-hackathons > div.hk-container > div.hk-hackathons-slideshow-container > div.hk-rectangle.hk-rectangle-top {
+  top: -120px;
+  right: -24px;
+  background-color: #0014c6;
+  opacity: 0.5px;
+  z-index: 1200;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-hackathons > div.hk-container > div.hk-hackathons-slideshow-container > div.hk-rectangle.hk-rectangle-bottom {
+  bottom: -20px;
+  left: -24px;
+  background-color: #ffffff;
+  opacity: 0.25;
+  z-index: 800;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-hackathons > div.hk-container > div.hk-hackathons-slideshow-container > div.hk-hackathons-slideshow {
+  position: absolute;
+  z-index: 1000;
+  margin: auto;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-hackathons > div.hk-container > div.hk-hackathons-slideshow-container > div.hk-hackathons-slideshow > div.hk-hackathons-slideshow-inner {
+  margin: auto;
+  width: 280px;
+  height: 256px;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-hackathons > div.hk-container > div.hk-hackathons-slideshow-container > div.hk-hackathons-slideshow > div.hk-hackathons-slideshow-inner > div.hk-hackathons-slides-container {
+  width: 2800px;
+  height: 100%;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-hackathons > div.hk-container > div.hk-hackathons-slideshow-container > div.hk-hackathons-slideshow > div.hk-hackathons-slideshow-inner > div.hk-hackathons-slides-container > div.hk-slideshow-slide {
+  display: inline-block;
+  width: 280px;
+  height: 100%;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-hackathons > div.hk-container > div.hk-hackathons-slideshow-container > div.hk-hackathons-slideshow > div.hk-hackathons-slideshow-inner > div.hk-hackathons-slides-container > div.hk-slideshow-slide > img {
+  width: 100%;
+  height: 100%;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-hackathons > div.hk-container > div.hk-hackathons-slideshow-container > div.hk-hackathons-slideshow > div.hk-hackathons-slideshow-progrss-bar {
+  margin: 18px auto;
+  width: 280px;
+  height: 4px;
+  background-color: #bbb;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-hackathons > div.hk-container > div.hk-hackathons-slideshow-container > div.hk-hackathons-slideshow > div.hk-hackathons-slideshow-progrss-bar > div.hk-inner {
+  height: 100%;
+  width: 50%;
+  background-color: #fff;
 }
 
 body.hk-body > div.hk-view-desktop.hk-homepage > div.hk-services {
