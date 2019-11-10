@@ -666,9 +666,28 @@ body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section {
   overflow: visible;
 }
 body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section > div.hk-container {
-  padding: 50px 20px;
+  padding: 50px 40px;
   padding-bottom: 100px;
   overflow: visible;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section > div.hk-container > div.hk-section-heading {
+  display: inline-block;
+  padding: 20px 5px;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section > div.hk-container > div.hk-section-heading > div.hk-text > h1 {
+  font-size: 30px;
+  color: #000;
+  margin: 10px auto;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section > div.hk-container > div.hk-section-heading > div.hk-border {
+  height: 4px;
+  background-color: #0014c6;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section > div.hk-container > div.hk-section-heading.hk-light > div.hk-text > h1 {
+  color: #fff;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section > div.hk-container > div.hk-section-heading.hk-light > div.hk-border {
+  background-color: #fff;
 }
 
 body.hk-body > div.hk-view-desktop.hk-homepage > div.hk-banner {
@@ -2006,6 +2025,9 @@ body.hk-body > div.hk-view-desktop.hk-homepage > div.hk-services.hidden-down > d
   opacity: 0;
   top: 400px;
 }
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-services {
+  background-image: linear-gradient(to top, #ffffff, #ededed);
+}
 body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-services > div.hk-container > div.hk-section-description > div.hk-text > p {
   font-size: 1.2em;
   line-height: 2;
@@ -2334,6 +2356,9 @@ body.hk-body > div.hk-view-desktop.hk-homepage > div.hk-team.hidden-down > div.h
   transition-delay: 0s;
   opacity: 0;
   left: 2000px;
+}
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-team {
+  background-image: linear-gradient(to top, #ffffff, #ededed);
 }
 body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-team > div.hk-container > div.hk-team-members {
   overflow: visible;
