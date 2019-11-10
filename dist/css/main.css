@@ -689,6 +689,10 @@ body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section > div.hk-containe
 body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section > div.hk-container > div.hk-section-heading.hk-light > div.hk-border {
   background-color: #fff;
 }
+body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section > div.hk-container > div.hk-section-description > p {
+  font-size: 1.2em;
+  line-height: 2;
+}
 
 body.hk-body > div.hk-view-desktop.hk-homepage > div.hk-banner {
   position: fixed;
@@ -2027,10 +2031,6 @@ body.hk-body > div.hk-view-desktop.hk-homepage > div.hk-services.hidden-down > d
 }
 body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-services {
   background-image: linear-gradient(to top, #ffffff, #ededed);
-}
-body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-services > div.hk-container > div.hk-section-description > div.hk-text > p {
-  font-size: 1.2em;
-  line-height: 2;
 }
 body.hk-body > div.hk-view-mobile.hk-homepage > div.hk-section.hk-services > div.hk-container > div.hk-service-cards > div.hk-service-card {
   text-align: center;
